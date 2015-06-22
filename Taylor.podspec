@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/moski'
   s.social_media_url = 'http://twitter.com/izqui9'
   s.authors = { 'Jorge Izquierdo' => 'jorge@izqui.me' }
-  s.source = { :git => 'https://github.com/moski/Taylor.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/moski/Taylor.git', :tag => "v#{s.version}" }
 
-  s.ios.deployment_target = '8.0'
+  #s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
 
   s.source_files = 'taylor/Taylor/*.swift'

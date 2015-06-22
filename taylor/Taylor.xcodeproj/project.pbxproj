@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20D3AD5F469D8445EF1E3724 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646604E5FC3FB69A574217A9 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6E267E341AD069EF0077B974 /* stdext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E267E331AD069EF0077B974 /* stdext.swift */; };
 		E1D6FAC11AB5E91700399154 /* Taylor.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D6FAC01AB5E91700399154 /* Taylor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1D6FAC71AB5E91700399154 /* Taylor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D6FABB1AB5E91700399154 /* Taylor.framework */; };
 		E1D6FAE11AB5E95900399154 /* FileTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6FAD81AB5E95900399154 /* FileTypes.swift */; };
 		E1D6FAE21AB5E95900399154 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6FAD91AB5E95900399154 /* Middleware.swift */; };
 		E1D6FAE31AB5E95900399154 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6FADA1AB5E95900399154 /* Request.swift */; };
@@ -17,29 +17,20 @@
 		E1D6FAE51AB5E95900399154 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6FADC1AB5E95900399154 /* Route.swift */; };
 		E1D6FAE61AB5E95900399154 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6FADD1AB5E95900399154 /* Router.swift */; };
 		E1D6FAE81AB5E95900399154 /* Taylor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6FADF1AB5E95900399154 /* Taylor.swift */; };
-		E1D6FAEA1AB5E96C00399154 /* Taylor_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6FAE91AB5E96C00399154 /* Taylor_Tests.swift */; };
 		E1D6FAEF1AB5E98D00399154 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D6FAEC1AB5E98D00399154 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1D6FAF01AB5E98D00399154 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D6FAED1AB5E98D00399154 /* GCDAsyncSocket.m */; };
 		E1D6FAF31AB5EA2100399154 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D6FAF21AB5EA2100399154 /* Security.framework */; };
 		E1D6FAF51AB5EA2700399154 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D6FAF41AB5EA2700399154 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E1D6FAC81AB5E91700399154 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E1D6FAB21AB5E91600399154 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1D6FABA1AB5E91700399154;
-			remoteInfo = Taylor;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		6238DA96AFFEEF415A3378BD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		646604E5FC3FB69A574217A9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E267E331AD069EF0077B974 /* stdext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = stdext.swift; path = ../../taylor/Taylor/stdext.swift; sourceTree = "<group>"; };
+		77B96C310FA2B343D4B69AD9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E1D6FABB1AB5E91700399154 /* Taylor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Taylor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D6FABF1AB5E91700399154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1D6FAC01AB5E91700399154 /* Taylor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Taylor.h; sourceTree = "<group>"; };
-		E1D6FAC61AB5E91700399154 /* TaylorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaylorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D6FACC1AB5E91700399154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1D6FAD81AB5E95900399154 /* FileTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileTypes.swift; sourceTree = "<group>"; };
 		E1D6FAD91AB5E95900399154 /* Middleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
@@ -62,26 +53,29 @@
 			files = (
 				E1D6FAF51AB5EA2700399154 /* CFNetwork.framework in Frameworks */,
 				E1D6FAF31AB5EA2100399154 /* Security.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1D6FAC31AB5E91700399154 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1D6FAC71AB5E91700399154 /* Taylor.framework in Frameworks */,
+				20D3AD5F469D8445EF1E3724 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9994AA7D3C1AB3533258DB6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				646604E5FC3FB69A574217A9 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1D6FAB11AB5E91600399154 = {
 			isa = PBXGroup;
 			children = (
 				E1D6FABD1AB5E91700399154 /* Taylor */,
 				E1D6FACA1AB5E91700399154 /* TaylorTests */,
 				E1D6FABC1AB5E91700399154 /* Products */,
+				FF530305D5D5DF617D305627 /* Pods */,
+				9994AA7D3C1AB3533258DB6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				E1D6FABB1AB5E91700399154 /* Taylor.framework */,
-				E1D6FAC61AB5E91700399154 /* TaylorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +141,15 @@
 			path = dependencies;
 			sourceTree = "<group>";
 		};
+		FF530305D5D5DF617D305627 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77B96C310FA2B343D4B69AD9 /* Pods.debug.xcconfig */,
+				6238DA96AFFEEF415A3378BD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -167,10 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1D6FAD11AB5E91700399154 /* Build configuration list for PBXNativeTarget "Taylor" */;
 			buildPhases = (
+				3EBE01F080785300A728D015 /* Check Pods Manifest.lock */,
 				E1D6FAB61AB5E91700399154 /* Sources */,
 				E1D6FAB71AB5E91700399154 /* Frameworks */,
 				E1D6FAB81AB5E91700399154 /* Headers */,
 				E1D6FAB91AB5E91700399154 /* Resources */,
+				C09E699B56950BDE78028C4F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,24 +184,6 @@
 			productName = Taylor;
 			productReference = E1D6FABB1AB5E91700399154 /* Taylor.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		E1D6FAC51AB5E91700399154 /* TaylorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E1D6FAD41AB5E91700399154 /* Build configuration list for PBXNativeTarget "TaylorTests" */;
-			buildPhases = (
-				E1D6FAC21AB5E91700399154 /* Sources */,
-				E1D6FAC31AB5E91700399154 /* Frameworks */,
-				E1D6FAC41AB5E91700399154 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E1D6FAC91AB5E91700399154 /* PBXTargetDependency */,
-			);
-			name = TaylorTests;
-			productName = TaylorTests;
-			productReference = E1D6FAC61AB5E91700399154 /* TaylorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -210,9 +196,6 @@
 				ORGANIZATIONNAME = izqui;
 				TargetAttributes = {
 					E1D6FABA1AB5E91700399154 = {
-						CreatedOnToolsVersion = 6.3;
-					};
-					E1D6FAC51AB5E91700399154 = {
 						CreatedOnToolsVersion = 6.3;
 					};
 				};
@@ -230,7 +213,6 @@
 			projectRoot = "";
 			targets = (
 				E1D6FABA1AB5E91700399154 /* Taylor */,
-				E1D6FAC51AB5E91700399154 /* TaylorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,14 +225,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1D6FAC41AB5E91700399154 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EBE01F080785300A728D015 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		C09E699B56950BDE78028C4F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1D6FAB61AB5E91700399154 /* Sources */ = {
@@ -269,23 +277,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1D6FAC21AB5E91700399154 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1D6FAEA1AB5E96C00399154 /* Taylor_Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E1D6FAC91AB5E91700399154 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E1D6FABA1AB5E91700399154 /* Taylor */;
-			targetProxy = E1D6FAC81AB5E91700399154 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E1D6FACF1AB5E91700399154 /* Debug */ = {
@@ -375,6 +367,7 @@
 		};
 		E1D6FAD21AB5E91700399154 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B96C310FA2B343D4B69AD9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -395,6 +388,7 @@
 		};
 		E1D6FAD31AB5E91700399154 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6238DA96AFFEEF415A3378BD /* Pods.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -412,40 +406,6 @@
 			};
 			name = Release;
 		};
-		E1D6FAD51AB5E91700399154 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TaylorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "me.izqui.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		E1D6FAD61AB5E91700399154 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TaylorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "me.izqui.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -456,7 +416,7 @@
 				E1D6FAD01AB5E91700399154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		E1D6FAD11AB5E91700399154 /* Build configuration list for PBXNativeTarget "Taylor" */ = {
 			isa = XCConfigurationList;
@@ -465,16 +425,7 @@
 				E1D6FAD31AB5E91700399154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E1D6FAD41AB5E91700399154 /* Build configuration list for PBXNativeTarget "TaylorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E1D6FAD51AB5E91700399154 /* Debug */,
-				E1D6FAD61AB5E91700399154 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
